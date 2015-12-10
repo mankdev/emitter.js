@@ -1,6 +1,4 @@
-void (function() {
-  
-  var global = this
+void (function(global) {
   
   /**
    * Emitter constructor
@@ -277,4 +275,4 @@ void (function() {
     
   }
   
-})()
+})(this)
